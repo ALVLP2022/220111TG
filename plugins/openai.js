@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from "openai";
 let handler = async (m, { conn, text }) => {
 const configuration = new Configuration({
-    apiKey: "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"
+    apiKey: "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"
 });
 const openai = new OpenAIApi(configuration);
         const response = await openai.createCompletion({
